@@ -1,0 +1,61 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  --radius-lg: 0.5rem;
+  --radius-md: calc(0.5rem - 2px);
+  --radius-sm: calc(0.5rem - 4px);
+
+  --color-background: 0 0% 0%;
+  --color-foreground: 60 9% 96%;
+
+  --color-card: 20 4% 4%;
+  --color-card-foreground: 60 9% 96%;
+
+  --color-popover: 20 4% 4%;
+  --color-popover-foreground: 60 9% 96%;
+
+  --color-primary: 60 9% 96%;
+  --color-primary-foreground: 0 0% 0%;
+
+  --color-secondary: 12 6% 15%;
+  --color-secondary-foreground: 60 9% 96%;
+
+  --color-muted: 12 6% 15%;
+  --color-muted-foreground: 24 6% 63%;
+
+  --color-accent: 12 6% 15%;
+  --color-accent-foreground: 60 9% 96%;
+
+  --color-destructive: 0 84% 60%;
+  --color-destructive-foreground: 60 9% 96%;
+
+  --color-border: 12 7% 20%;
+  --color-input: 12 7% 20%;
+  --color-ring: 60 9% 96%;
+
+  --color-chart-1: 173 58% 39%;
+  --color-chart-2: 12 76% 61%;
+  --color-chart-3: 197 37% 24%;
+  --color-chart-4: 43 74% 66%;
+  --color-chart-5: 27 87% 67%;
+}
+
+* {
+  border-color: hsl(12 7% 20%);
+}
+
+body {
+  background-color: #000;
+  color: hsl(60 9% 96%);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-feature-settings: 'cv11', 'ss01';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
